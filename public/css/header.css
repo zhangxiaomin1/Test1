@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*头*/
+#header{
+  width:100%;
+  height:200px;
+}
+.logo{
+  width:100%;
+  background-color:#DEDEDE;
+}
+.logo>div{
+  width:1102px;
+  height:135px;
+  margin:0 auto;
+}
+/*导航栏*/
+.nav{
+  background-color:black;
+  height:60px;
+  width:100%;
+  text-align: center;
+  z-index:200;
+}
+.container{
+  width:1102px;
+  margin:0 auto;
+  height:60px;
+  display: flex;
+  justify-content: space-between;
+}
+.city{
+  height:60px;
+  width:202.2px;
+  background-color:#B41B1B;
+}
+.city>a{
+  display: inline-block;
+  font-size:25px;
+  text-decoration: none;
+  color:#fff;
+  margin-top:15px;
+}
+.nav-tab{
+  width:81.8%;
+  display: flex;
+  height:60px;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-tab>li{
+padding:19px 5px;
+width:99px;
+}
+.nav-tab>li:hover{
+  background-color:#595959;
+}
+.nav-tab>li>a{
+  color:#fff;
+  font-size:16px;
+  text-decoration: none;
+  margin-top:30px;
+}
